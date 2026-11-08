@@ -227,14 +227,14 @@
   ],
   "usage": {
     "plan": "Premium",
-    "percentUsed": 46.1,
-    "usedLabel": "46.1%",
+    "percentUsed": 32,
+    "usedLabel": "32%",
     "limitKind": "weekly",
     "sharedWithOtherApps": true,
-    "resetsAt": "2026-11-12T15:16:00+08:00",
-    "resetsLabel": "11月12日 15:16",
+    "resetsAt": "2026-12-01T12:00:00+08:00",
+    "resetsLabel": "12月1日 12:00",
     "hasExtraCredits": true,
-    "fetchedAt": "2026-11-08T10:38:01+08:00",
+    "fetchedAt": "2026-11-07T12:00:00+08:00",
     "sourceNote": "demo snapshot"
   }
 }
