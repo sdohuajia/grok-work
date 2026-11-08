@@ -1,0 +1,14 @@
+{
+  "timezone": "Asia/Shanghai",
+  "statusSync": {
+    "hours": [
+      0,
+      12
+    ],
+    "minute": 0
+  },
+  "dashboardSync": {
+    "intervalMinutes": 10
+  },
+  "pageRefreshSeconds": 60
+}

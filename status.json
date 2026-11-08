@@ -1,0 +1,240 @@
+{
+  "updatedAt": "2026-11-07T12:00:00+08:00",
+  "bots": [
+    {
+      "id": "b72f5af7-af35-4be4-99e5-26e63c5fd282",
+      "name": "工作室",
+      "dept": "ceo",
+      "role": "总经理 · CEO",
+      "state": "working",
+      "summary": "维护总部大楼网站与成员状态（示例）",
+      "lastActive": "2026-11-07T12:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-07T12:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    },
+    {
+      "id": "b0b237f9-1bf0-4351-99e8-7cb08e7280e9",
+      "name": "空投消息助手",
+      "dept": "intel",
+      "role": "情报员 · 推特一手消息",
+      "state": "working",
+      "summary": "整理今日情报简报（示例）",
+      "lastActive": "2026-11-07T09:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-07T09:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    },
+    {
+      "id": "0f6b9c8c-b593-4aab-8952-70085ca38248",
+      "name": "查询",
+      "dept": "intel",
+      "role": "数据查询员",
+      "state": "idle",
+      "summary": "整理示例数据表，待命中",
+      "lastActive": "2026-11-06T18:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-06T18:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    },
+    {
+      "id": "eef4929f-3af1-4a90-b1a1-134eb093ff7e",
+      "name": "交易大神",
+      "dept": "trade",
+      "role": "首席交易员",
+      "state": "idle",
+      "summary": "监控套利脚本（示例）",
+      "lastActive": "2026-11-06T16:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-06T16:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    },
+    {
+      "id": "2d65bcdb-02a1-4079-96bb-d60864f5d3b1",
+      "name": "币安AI agent",
+      "dept": "trade",
+      "role": "交易员 · 链上卖出",
+      "state": "idle",
+      "summary": "盯盘与链上交易示例任务已完成",
+      "lastActive": "2026-11-06T15:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-06T15:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    },
+    {
+      "id": "dec85747-0ea6-4655-93d2-9a5e0b2e6b10",
+      "name": "脚本检查执行",
+      "dept": "dev",
+      "role": "脚本工程师",
+      "state": "idle",
+      "summary": "检查脚本参数与面板连通性（示例）",
+      "lastActive": "2026-11-06T14:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-06T14:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    },
+    {
+      "id": "c78a06c8-3b83-4670-b132-1b2090f71185",
+      "name": "popdex自动化",
+      "dept": "dev",
+      "role": "自动化工程师 · PopDEX",
+      "state": "working",
+      "summary": "PopDEX 站点巡检中（示例）",
+      "lastActive": "2026-11-07T11:50:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-07T11:50:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ],
+      "dashboard": {
+        "title": "PopDEX 站点巡检（示例）",
+        "url": "https://panels.example.com/",
+        "fetchedAt": "2026-11-07T11:50:00+08:00",
+        "stats": [
+          {
+            "label": "主站",
+            "value": "在线（HTTP 200）",
+            "tone": "good"
+          },
+          {
+            "label": "8080",
+            "value": "在线（HTTP 302）",
+            "tone": "good"
+          }
+        ],
+        "tables": [],
+        "errors": [],
+        "note": "演示数据，非真实巡检结果。"
+      }
+    },
+    {
+      "id": "64bc81fe-462b-4a7a-ae86-96e2bf3fbb63",
+      "name": "Entropy套利",
+      "dept": "dev",
+      "role": "套利工程师",
+      "state": "working",
+      "summary": "监控跨场所套利脚本（示例）",
+      "lastActive": "2026-11-07T11:50:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-07T11:50:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ],
+      "dashboard": {
+        "title": "arb-bot · 演示面板",
+        "url": "http://panels.example.com:8001/",
+        "fetchedAt": "2026-11-07T11:50:00+08:00",
+        "stats": [
+          {
+            "label": "实盘场所",
+            "value": "demo-A × demo-B"
+          },
+          {
+            "label": "纸面持仓",
+            "value": "0 开 / 2 已平"
+          }
+        ],
+        "tables": [
+          {
+            "title": "示例持仓",
+            "columns": [
+              "标的",
+              "多",
+              "空",
+              "规模",
+              "盈亏"
+            ],
+            "rows": [
+              [
+                "DEMO",
+                "X",
+                "Y",
+                "100",
+                "1.23"
+              ]
+            ]
+          }
+        ],
+        "errors": [],
+        "note": "演示数据，数字均为虚构。"
+      }
+    },
+    {
+      "id": "7f2dd154-d1ac-4a87-a470-4896e3d882b2",
+      "name": "服务器维护",
+      "dept": "dev",
+      "role": "运维工程师 · 服务器安全",
+      "state": "idle",
+      "summary": "巡检服务器安全与系统更新（示例）",
+      "lastActive": "2026-11-06T12:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-06T12:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    },
+    {
+      "id": "6fcbf63d-f5ef-48f7-b00c-275be133637f",
+      "name": "挖矿",
+      "dept": "mine",
+      "role": "矿工",
+      "state": "paused",
+      "summary": "挖矿任务已暂停（示例）",
+      "lastActive": "2026-11-05T20:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-05T20:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    },
+    {
+      "id": "463c6096-1807-47de-ab54-bed0b8fab06a",
+      "name": "写作",
+      "dept": "content",
+      "role": "内容策划",
+      "state": "idle",
+      "summary": "准备下一期内容文案（示例）",
+      "lastActive": "2026-11-06T10:00:00+08:00",
+      "messages": [
+        {
+          "at": "2026-11-06T10:00:00+08:00",
+          "text": "这是示例消息，替换成你自己 Bot 的最新回复即可。"
+        }
+      ]
+    }
+  ],
+  "usage": {
+    "plan": "Premium",
+    "percentUsed": 46.1,
+    "usedLabel": "46.1%",
+    "limitKind": "weekly",
+    "sharedWithOtherApps": true,
+    "resetsAt": "2026-11-12T15:16:00+08:00",
+    "resetsLabel": "11月12日 15:16",
+    "hasExtraCredits": true,
+    "fetchedAt": "2026-11-08T10:38:01+08:00",
+    "sourceNote": "demo snapshot"
+  }
+}

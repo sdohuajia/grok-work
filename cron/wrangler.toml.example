@@ -1,0 +1,13 @@
+# Example Wrangler config for the optional 10-minute dashboard cron Worker.
+# Copy to wrangler.toml and fill in your KV namespace id from the Cloudflare dashboard.
+name = "studio-hq-cron"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+workers_dev = false
+
+[triggers]
+crons = ["*/10 * * * *"]
+
+[[kv_namespaces]]
+binding = "STATUS"
+id = "YOUR_KV_NAMESPACE_ID"
